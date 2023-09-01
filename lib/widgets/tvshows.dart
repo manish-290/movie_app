@@ -30,7 +30,7 @@ class TvShows extends StatelessWidget {
                     bannerurl: 'https://image.tmdb.org/t/p/w500'+tvShows[index]['backdrop_path'], 
                     posterurl: 'https://image.tmdb.org/t/p/w500'+tvShows[index]['poster_path'],
                      vote: tvShows[index]['vote_average']. toString(), 
-                     launch_date: tvShows[index]['release_date'])));
+                     launch_date: tvShows[index]['first_air_date'])));
 
               },
               child:Container(
